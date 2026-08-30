@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zarrin Landing Page</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Font Awesome CDN (Free v6.5.1) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Google Font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body class="font-[raleway]">
+
+    <!-- Header section -->
+
+    <header class="flex items-center justify-between p-4  mx-auto w-4xl">
+        <div>
+            <img src="./images/Logo.svg" alt="" class="h-8">
+        </div>
+
+        <div class="flex items-center gap-6">
+            <ul class="flex gap-4">
+                <li class="hover:text-[#7C4EE4] font-semibold transition-all duration-150 hover:scale-"><a href="#">Blog</a></li>
+                <li class="hover:text-[#7C4EE4] font-semibold transition-all duration-150 hover:scale-108"><a href="#">Blog</a></li>
+                <li class="hover:text-[#7C4EE4] font-semibold transition-all duration-150 hover:scale-108"><a href="#">About</a></li>
+            </ul>
+
+            
+            <i class="fa-solid fa-magnifying-glass text-xl text-black cursor-pointer hover:text-[#7C4EE4] transition-all duration-150 hover:scale-120"></i>
+
+            <button class="bg-[#7C4EE4] font-semibold text-white h-8 w-25 rounded cursor-pointer hover:bg-white hover:text-[#7C4EE4] hover:border hover:border-[#7C4EE4] transition-all duration-200 hover:scale-10;">Contact Us</button>
+
+        </div>
+    </header>
+
+
+    <!-- Hero section -->
+
+        <section class="bg-[#7C4EE4] flex items-center justify-center p-8 md:p-16 relative overflow-hidden">
+            
+            <!-- Content Wrapper (Grid for exactly 2 equal columns) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 items-center max-w-7xl mx-auto gap-12 w-full z-10">
+                
+                <!-- Left Side: Texts & Button -->
+                <div class="flex flex-col items-start gap-5">
+
+                    <h1 class="text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+                        How AI will <br class="hidden md:block"> Change the Future
+                    </h1>
+                    
+                    <p class="text-white/90 text-sm md:text-base leading-relaxed max-w-md mt-2">
+                        The future of AI will see home robots having enhanced intelligence, increased capabilities, and becoming more personal and possibly cute. For example, home robots will overcome navigation, direction
+                    </p>
+                    
+                    <button class="bg-white text-[#7C4EE4] font-semibold text-sm px-8 py-3 rounded mt-4 hover:scale-105 hover:bg-gray-100 transition-all duration-150 cursor-pointer shadow-sm">
+                        Read more
+                    </button>
+                </div>
+
+                <!-- Right Side: Image -->
+                <div class="flex justify-center md:justify-end">
+                    <img 
+                        src="./images/Container.png" 
+                        alt="AI Robot" 
+                        class="w-full max-w-lg rounded-2xl shadow-2xl object-cover"
+                    >
+                </div>              
+            </div>
+        </section>
+    <section class="max-w-300 mx-auto my-10 px-4">
+
+        <div class="w-full">
+            <img 
+            src="./images/Container-2.png" 
+            alt="VR and AI Technology" 
+            class="w-full h-112.5 object-cover rounded-2xl"
+            />
+        </div>
+        
+        <div class="bg-white rounded-xl p-8 md:h-[400px] md:w-[850px] shadow-lg relative z-10 -mt-24 md:-mt-[200px] md:ml-auto md:mr-10">
+            
+            <div class="flex gap-5 font-semibold text-sm mb-4">
+                <p>DEVELOPMENT</p>
+                <p class="text-gray-400">30 August 2026</p>
+            </div>
+
+            <h1 class="text-3xl md:text-4xl font-bold mb-4">
+                How to make a Game look more attractive with New <br class="hidden md:block"> VR & AI Technology
+            </h1>
+
+            <p class="text-gray-800 mb-6">
+                Google has been investing in AI for many years and bringing its benefits to individuals, businesses and communities. Whether it’s publishing state-of-the-art research, building helpful products or developing tools and resources that enable others, we’re committed to making AI accessible to everyone.
+            </p>
+
+            <button class="bg-white text-[#7C4EE4] font-semibold text-sm px-8 py-3 border rounded hover:scale-108 hover:bg-[#7C4EE4] hover:text-white transition-all duration-150 cursor-pointer shadow-sm">
+                Read More
+            </button>
+        </div>
+        
+    </section>
+
+    <!-- Our Recent Post -->
+    <section class="max-w-300 mx-auto my-10 px-4">
+        <div class="flex justify-between">
+            <h2 class="text-5xl font-bold">Our Recent Post</h2>
+            <button class="bg-[#7C4EE4] text-white font-semibold text-sm px-8 py-3 border rounded hover:scale-104 hover:bg-white hover:text-[#7C4EE4] transition-all duration-150 cursor-pointer shadow-sm">View All</button>
+        </div>
+    </section>
+
+    <!-- Posts -->
+     <section class="grid grid-cols-2 max-w-300 mx-auto my-10 px-4 gap-10">
+        <img src="./images/Image Placeholder.png" alt="" class="h-[350px] w-[700px]">
+
+        <div class="grid gap-4">
+            <div class="flex gap-7">
+                <p class="font-bold">DEVELOPMENT</p>
+                <p>16 March 2023</p>
+            </div>
+
+            <h1 class="text-4xl font-bold">How to make a Game look more attractive with New VR & AI Technology</h1>
+
+            <p>Google has been investing in AI for many years and bringing its benefits to individuals, businesses and communities. Whether it’s publishing state-of-the-art research, building helpful products or developing tools and resources that enable others, we’re committed to making AI accessible to everyone.</p>
+
+            <button class="bg-white text-[#7C4EE4] font-semibold text-sm px-8 py-3 border rounded hover:scale-108 hover:bg-[#7C4EE4] hover:text-white transition-all duration-150 cursor-pointer shadow-sm w-40 mx-auto">Read More</button>
+        </div>
+
+     </section>
+
+
+
+</body>
+</html>
